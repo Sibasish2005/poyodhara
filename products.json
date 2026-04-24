@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "20L Water Jar",
+    "slug": "20l-water-jar",
+    "capacity": "20 Liters",
+    "type": "Jar",
+    "image": "/Products/20L.png",
+    "description": "Large 20L premium drinking water jar suitable for home and office use.",
+    "category": "Bulk Water",
+    "seo": {
+      "title": "20L Drinking Water Jar - Poyodhara",
+      "description": "Buy 20 liter premium drinking water jar for home and office delivery.",
+      "keywords": ["20L water jar", "drinking water jar", "bulk water"]
+    }
+  },
+  {
+    "id": 2,
+    "name": "2L Water Bottle",
+    "slug": "2l-water-bottle",
+    "capacity": "2 Liters",
+    "type": "Bottle",
+    "image": "/Products/2L.png",
+    "description": "Convenient 2L drinking water bottle for daily hydration.",
+    "category": "Bottled Water",
+    "seo": {
+      "title": "2L Drinking Water Bottle - Poyodhara",
+      "description": "Premium 2 liter bottled drinking water for everyday use.",
+      "keywords": ["2L water bottle", "drinking water", "mineral water"]
+    }
+  },
+  {
+    "id": 3,
+    "name": "1L Water Bottle",
+    "slug": "1l-water-bottle",
+    "capacity": "1 Liter",
+    "type": "Bottle",
+    "image": "/Products/1L.png",
+    "description": "Compact 1L water bottle, easy to carry and ideal for travel.",
+    "category": "Bottled Water",
+    "seo": {
+      "title": "1L Drinking Water Bottle - Poyodhara",
+      "description": "High-quality 1 liter bottled drinking water for on-the-go hydration.",
+      "keywords": ["1L water bottle", "portable water bottle"]
+    }
+  },
+  {
+    "id": 4,
+    "name": "500ml Water Bottle",
+    "slug": "500ml-water-bottle",
+    "capacity": "500 ml",
+    "type": "Bottle",
+    "image": "/Products/500ml.png",
+    "description": "Small 500ml water bottle, perfect for quick hydration.",
+    "category": "Bottled Water",
+    "seo": {
+      "title": "500ml Drinking Water Bottle - Poyodhara",
+      "description": "Compact 500ml mineral water bottle for travel and daily use.",
+      "keywords": ["500ml water bottle", "small water bottle"]
+    }
+  },
+  {
+    "id": 5,
+    "name": "20L Water Container with Tap",
+    "slug": "20l-water-container",
+    "capacity": "20 Liters",
+    "type": "Container",
+    "image": "/Products/20LTap.png",
+    "description": "Durable 20L water container with tap for easy dispensing.",
+    "category": "Water Storage",
+    "seo": {
+      "title": "20L Water Container with Tap - Poyodhara",
+      "description": "Buy 20 liter water container with tap for convenient water storage.",
+      "keywords": ["20L container", "water dispenser container"]
+    }
+  }
+]
