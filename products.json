@@ -20,7 +20,7 @@
     "slug": "2l-water-bottle",
     "capacity": "2 Liters",
     "type": "Bottle",
-    "image": "/Products/2L.png",
+    "image": "/products/2L.png",
     "description": "Convenient 2L drinking water bottle for daily hydration.",
     "category": "Bottled Water",
     "seo": {
@@ -35,7 +35,7 @@
     "slug": "1l-water-bottle",
     "capacity": "1 Liter",
     "type": "Bottle",
-    "image": "/Products/1L.png",
+    "image": "/products/1L.png",
     "description": "Compact 1L water bottle, easy to carry and ideal for travel.",
     "category": "Bottled Water",
     "seo": {
@@ -50,7 +50,7 @@
     "slug": "500ml-water-bottle",
     "capacity": "500 ml",
     "type": "Bottle",
-    "image": "/Products/500ml.png",
+    "image": "/products/500ml.png",
     "description": "Small 500ml water bottle, perfect for quick hydration.",
     "category": "Bottled Water",
     "seo": {
@@ -65,7 +65,7 @@
     "slug": "20l-water-container",
     "capacity": "20 Liters",
     "type": "Container",
-    "image": "/Products/20LTap.png",
+    "image": "/products/20LTap.png",
     "description": "Durable 20L water container with tap for easy dispensing.",
     "category": "Water Storage",
     "seo": {
