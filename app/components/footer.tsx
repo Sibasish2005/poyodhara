@@ -36,7 +36,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-xs sm:text-sm text-slate-400 font-light max-w-sm leading-relaxed">
-              Packaged drinking water supplier. Bottled in South Tripura with regular supply routes serving Agartala.
+              Best water bottled business and 20L jar delivery in Agartala, Tripura. Bottled at our facility in South Tripura with daily scheduled routes.
             </p>
           </div>
 
@@ -123,7 +123,7 @@ export default function Footer() {
             Disclaimer: All images, specifications, and prices are indicative and for representational purposes. Exact delivery schedules, bottle designs, container deposit terms, and final rates are confirmed directly upon placing an inquiry via WhatsApp or phone.
           </p>
           <div className="flex items-center gap-4 text-slate-400 shrink-0">
-            <span>© {new Date().getFullYear()} Poyodhara</span>
+            <span>© {new Date().getFullYear()} Poyodhara • Best Water Bottled Business in Agartala, Tripura</span>
             <span>•</span>
             <a
               href="https://www.linkedin.com/in/sibasish-chakraborti-5b55b82b1/"
@@ -145,7 +145,7 @@ export default function Footer() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: "Poyodhara",
+            name: "Poyodhara - Best Water Bottled Business in Agartala, Tripura",
             image: "https://poyodhara.com/logo.webp",
             url: "https://poyodhara.com",
             telephone: "+919366834064",

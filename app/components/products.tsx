@@ -150,6 +150,47 @@ export default function Products() {
         </div>
 
       </div>
+
+      {/* JSON-LD Structured Data for Products Collection */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: "Poyodhara Packaged Drinking Water Bottles & 20L Water Jars in Agartala, Tripura",
+            description: "Packaged drinking water bottles and 20L water jars supplied across Agartala, Tripura.",
+            numberOfItems: products.length,
+            itemListElement: products.map((product, index) => ({
+              "@type": "ListItem",
+              position: index + 1,
+              item: {
+                "@type": "Product",
+                name: product.name,
+                description: product.description,
+                image: `https://poyodhara.com${product.image}`,
+                category: product.category,
+                brand: {
+                  "@type": "Brand",
+                  name: "Poyodhara",
+                },
+                offers: {
+                  "@type": "Offer",
+                  priceCurrency: "INR",
+                  price: product.id === 1 ? 60 : product.id === 5 ? 120 : product.id === 2 ? 30 : product.id === 3 ? 20 : 10,
+                  availability: "https://schema.org/InStock",
+                  seller: {
+                    "@type": "LocalBusiness",
+                    name: "Poyodhara Drinking Water",
+                    telephone: "+919366834064",
+                    areaServed: "Agartala, Tripura",
+                  },
+                },
+              },
+            })),
+          }),
+        }}
+      />
     </section>
   );
 }

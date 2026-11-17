@@ -23,6 +23,11 @@ export default function Hero() {
 
   return (
     <div className="relative w-full overflow-hidden bg-white">
+      {/* Primary Semantic Heading for Search & Answer Engines */}
+      <h1 className="sr-only">
+        Poyodhara - Best Water Bottled Business in Agartala, Tripura | 20L Water Jars & Packaged Drinking Water Bottles
+      </h1>
+
       {/* Slides */}
       <div
         className="flex transition-transform duration-700 ease-in-out"

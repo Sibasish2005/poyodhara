@@ -30,6 +30,14 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "ClaudeBot",
         allow: "/",
       },
+      {
+        userAgent: "Google-Extended",
+        allow: "/",
+      },
+      {
+        userAgent: "Applebot",
+        allow: "/",
+      },
     ],
     sitemap: `${baseUrl}/sitemap.xml`,
   };

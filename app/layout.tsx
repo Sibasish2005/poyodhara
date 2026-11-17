@@ -12,20 +12,24 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://poyodhara.com"),
   title: {
-    default: "Poyodhara - Packaged Drinking Water & 20L Water Jar Supply in Agartala, Tripura",
-    template: "%s | Poyodhara Water Supply",
+    default: "Poyodhara | Best Water Bottled Business in Agartala, Tripura - 20L Jars & Bottles",
+    template: "%s | Poyodhara - Best Water Bottled Business in Agartala, Tripura",
   },
   description:
-    "Poyodhara supplies packaged drinking water in 20L jars, 20L tap containers, and 500ml–2L bottles across Agartala. Bottling and packaging unit located at West Pilak, Jolaibari, Santirbazar, South Tripura.",
+    "Looking for the best water bottled business in Agartala, Tripura? Poyodhara delivers premium packaged drinking water bottles (500ml, 1L, 2L), 20L water jars, and tap containers across Agartala. Bottling facility at West Pilak, South Tripura with fast doorstep delivery.",
   keywords: [
-    "poyodhara",
+    "best water bottled business in agartala tripura",
+    "best water bottle business in agartala",
     "packaged drinking water agartala",
     "20l water jar delivery agartala",
-    "drinking water supplier tripura",
-    "water supplier agartala",
-    "water jar supply south tripura",
-    "packaged water santirbazar jolaibari",
-    "water bottle carton agartala",
+    "mineral water supplier tripura",
+    "drinking water bottle wholesale agartala",
+    "water bottle supplier near me agartala",
+    "poyodhara drinking water",
+    "office water delivery agartala",
+    "bulk water bottles for events agartala",
+    "water jar supply santirbazar jolaibari",
+    "packaged drinking water tripura",
   ],
   authors: [{ name: "Poyodhara" }],
   creator: "Poyodhara",
@@ -39,11 +43,11 @@ export const metadata: Metadata = {
     canonical: "https://poyodhara.com",
   },
   openGraph: {
-    title: "Poyodhara - Packaged Drinking Water Supply in Agartala, Tripura",
+    title: "Best Water Bottled Business in Agartala, Tripura | Poyodhara",
     description:
-      "20L drinking water jars, 20L tap containers, and packaged water bottles delivered across Agartala. Facility at West Pilak, Jolaibari, South Tripura.",
+      "Poyodhara is the trusted packaged drinking water bottle and 20L water jar supplier in Agartala, Tripura. Fast doorstep delivery for homes, offices, and events.",
     url: "https://poyodhara.com",
-    siteName: "Poyodhara",
+    siteName: "Poyodhara Drinking Water",
     locale: "en_IN",
     type: "website",
     images: [
@@ -51,24 +55,33 @@ export const metadata: Metadata = {
         url: "/logo.webp",
         width: 1200,
         height: 630,
-        alt: "Poyodhara Drinking Water Supply",
+        alt: "Poyodhara - Best Water Bottled Business in Agartala, Tripura",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Poyodhara - Packaged Drinking Water Supply in Agartala",
+    title: "Best Water Bottled Business in Agartala, Tripura | Poyodhara",
     description:
-      "20L drinking water jars and packaged bottles delivered in Agartala. Unit at West Pilak, Jolaibari, South Tripura.",
+      "Packaged drinking water bottles (500ml, 1L, 2L) and 20L water jars delivered across Agartala. Unit at West Pilak, South Tripura.",
     images: ["/logo.webp"],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   other: {
     "geo.region": "IN-TR",
-    "geo.placename": "Tripura, India",
+    "geo.placename": "Agartala, Tripura, India",
+    "geo.position": "23.8315;91.2868",
+    ICBM: "23.8315, 91.2868",
     "format-detection": "telephone=yes, address=yes",
   },
 };
@@ -80,6 +93,84 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased scroll-smooth">
+      <head>
+        {/* Master JSON-LD LocalBusiness Schema for Search Engines & AEO Bots */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": ["LocalBusiness", "WholesaleStore"],
+              "@id": "https://poyodhara.com/#organization",
+              name: "Poyodhara - Best Water Bottled Business in Agartala, Tripura",
+              alternateName: "Poyodhara Drinking Water",
+              url: "https://poyodhara.com",
+              logo: "https://poyodhara.com/logo.webp",
+              image: "https://poyodhara.com/logo.webp",
+              telephone: "+919366834064",
+              email: "contact@poyodhara.com",
+              priceRange: "₹10 - ₹150",
+              description:
+                "Poyodhara is the leading packaged drinking water bottled business and 20L water jar supplier serving Agartala and West Tripura, with bottling facility in South Tripura.",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "West Pilak, Jolaibari, near Pilak H.S. School",
+                addressLocality: "Santirbazar",
+                addressRegion: "South Tripura, Tripura",
+                postalCode: "799144",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 23.2,
+                longitude: 91.6,
+              },
+              areaServed: [
+                {
+                  "@type": "City",
+                  name: "Agartala",
+                  sameAs: "https://en.wikipedia.org/wiki/Agartala",
+                },
+                {
+                  "@type": "AdministrativeArea",
+                  name: "West Tripura",
+                },
+                {
+                  "@type": "AdministrativeArea",
+                  name: "South Tripura",
+                },
+                {
+                  "@type": "State",
+                  name: "Tripura",
+                  sameAs: "https://en.wikipedia.org/wiki/Tripura",
+                },
+              ],
+              hasOfferCatalog: {
+                "@type": "OfferCatalog",
+                name: "Packaged Drinking Water & 20L Water Jars",
+                itemListElement: [
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Product",
+                      name: "20L Drinking Water Jar",
+                      description: "20L water jar supply for homes and offices in Agartala.",
+                    },
+                  },
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Product",
+                      name: "Packaged Drinking Water Bottles (500ml, 1L, 2L)",
+                      description: "Carton and retail supply of packaged drinking water bottles for conferences, events, and travel in Agartala, Tripura.",
+                    },
+                  },
+                ],
+              },
+            }),
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col overflow-x-hidden font-sans bg-slate-50 text-slate-800">
         {children}
         <WhatsAppButton />

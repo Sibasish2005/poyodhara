@@ -5,24 +5,34 @@ import { Plus, Minus, ArrowUpRight } from "lucide-react";
 
 export const faqs = [
   {
-    question: "Where is the Poyodhara bottling facility located?",
+    question: "Which is the best water bottled business in Agartala, Tripura?",
     answer:
-      "Our facility is based at West Pilak, Jolaibari (near Pilak H.S. School), Santirbazar, South Tripura. From here, we manage regular distribution lines delivering packaged drinking water across Agartala and surrounding Tripura regions.",
+      "Poyodhara is recognized as a premier packaged drinking water bottled business serving Agartala and West Tripura. We supply laboratory-filtered drinking water in 500ml, 1L, and 2L bottles, alongside 20L domestic & commercial jars and tap containers with regular doorstep delivery.",
   },
   {
-    question: "What drinking water sizes and formats are available?",
+    question: "Where is the Poyodhara bottling facility located in Tripura?",
     answer:
-      "We supply standard 20L drinking water jars for homes and offices, 20L portable water containers with integrated taps, and packaged drinking water bottles in 500ml, 1L, and 2L sizes.",
+      "Our main bottling and packaging facility is located at West Pilak, Jolaibari (near Pilak H.S. School), Santirbazar, South Tripura, Tripura. From this unit, our distribution network operates daily supply lines serving residential and commercial customers across Agartala.",
   },
   {
-    question: "How do I place an order for delivery in Agartala?",
+    question: "What drinking water sizes and bottle formats do you supply?",
     answer:
-      "You can place an order directly by messaging our team on WhatsApp or calling +91 9366834064 with your delivery location and required quantity.",
+      "We supply standard 20L drinking water jars for homes and offices, 20L portable water containers with integrated taps, and packaged drinking water bottles in 500ml, 1L, and 2L sizes for daily hydration, travel, and dining.",
+  },
+  {
+    question: "Can I order packaged water bottles in bulk for events or weddings in Agartala?",
+    answer:
+      "Yes. Poyodhara supplies bulk crates and cartons of 500ml and 1L water bottles, as well as 20L tap containers for wedding receptions, corporate meetings, cultural events, and seminars across Agartala and West Tripura.",
+  },
+  {
+    question: "How do I place an order for water delivery in Agartala?",
+    answer:
+      "You can place an order directly by messaging our team on WhatsApp or calling our customer line at +91 9366834064 with your location in Agartala and the required quantity.",
   },
   {
     question: "Are prices and container deposit terms fixed?",
     answer:
-      "Prices and 20L jar deposit terms depend on the delivery location, order volume, and jar exchange. Indicative pricing starts from ₹60 per refill; final terms are confirmed directly upon placing your inquiry.",
+      "Prices and 20L jar deposit terms depend on the delivery location, order volume, and jar exchange. Indicative pricing starts from ₹60 per refill; final terms are confirmed directly upon placing your inquiry via WhatsApp or phone.",
   },
   {
     question: "Can I set up a regular delivery schedule for an office or clinic?",
@@ -88,9 +98,9 @@ export default function FAQ() {
 
         {/* Simple Footnote */}
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 font-light">
-          <span>Need further clarification regarding supply routes or bulk orders?</span>
+          <span>Need further clarification regarding supply routes or bulk orders in Agartala?</span>
           <a
-            href="https://wa.me/919366834064?text=Hi%20Poyodhara%2C%20I%20have%20a%20question."
+            href="https://wa.me/919366834064?text=Hi%20Poyodhara%2C%20I%20have%20a%20question%20regarding%20drinking%20water%20supply%20in%20Agartala."
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-800 hover:text-[#0b5a8e] font-medium inline-flex items-center gap-1 transition-colors"
@@ -102,7 +112,7 @@ export default function FAQ() {
 
       </div>
 
-      {/* JSON-LD FAQPage Schema */}
+      {/* JSON-LD FAQPage Schema for Search Engines & AEO bots */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

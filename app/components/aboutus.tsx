@@ -33,7 +33,7 @@ export default function AboutUs() {
           {/* Editorial Narrative (5 cols) */}
           <div className="lg:col-span-5 flex flex-col justify-center space-y-5 text-sm sm:text-base text-slate-600 leading-relaxed font-light">
             <p>
-              <strong className="text-slate-900 font-semibold">Poyodhara</strong> was founded on a simple premise: everyone deserves access to clean, safe, and refreshing packaged drinking water.
+              <strong className="text-slate-900 font-semibold">Poyodhara</strong> is dedicated to delivering safe, refreshing packaged drinking water as a leading water bottled business serving Agartala and Tripura.
             </p>
             <p>
               Our primary bottling and packaging unit is located at{" "}
