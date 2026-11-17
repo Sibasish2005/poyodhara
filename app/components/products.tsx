@@ -168,7 +168,7 @@ export default function Products() {
                 "@type": "Product",
                 name: product.name,
                 description: product.description,
-                image: `https://poyodhara.in${product.image}`,
+                image: `https://www.poyodhara.in${product.image}`,
                 sku: `POYODHARA-${product.id}`,
                 category: product.category,
                 brand: {
@@ -177,7 +177,7 @@ export default function Products() {
                 },
                 offers: {
                   "@type": "Offer",
-                  url: "https://poyodhara.in/#products",
+                  url: "https://www.poyodhara.in/#products",
                   priceCurrency: "INR",
                   price: product.id === 1 ? 60 : product.id === 5 ? 120 : product.id === 2 ? 30 : product.id === 3 ? 20 : 10,
                   priceValidUntil: "2027-12-31",

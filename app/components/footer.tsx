@@ -137,43 +137,6 @@ export default function Footer() {
         </div>
 
       </div>
-
-      {/* Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            name: "Poyodhara - Best Water Bottled Business in Agartala, Tripura",
-            image: "https://poyodhara.com/logo.webp",
-            url: "https://poyodhara.com",
-            telephone: "+919366834064",
-            email: "contact@poyodhara.com",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "West Pilak, Jolaibari, near Pilak H.S. School",
-              addressLocality: "Santirbazar",
-              addressRegion: "South Tripura, Tripura",
-              addressCountry: "IN",
-            },
-            areaServed: [
-              {
-                "@type": "City",
-                name: "Agartala",
-              },
-              {
-                "@type": "AdministrativeArea",
-                name: "West Tripura",
-              },
-              {
-                "@type": "AdministrativeArea",
-                name: "South Tripura",
-              },
-            ],
-          }),
-        }}
-      />
     </footer>
   );
 }

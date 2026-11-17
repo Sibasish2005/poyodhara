@@ -10,7 +10,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://poyodhara.in"),
+  metadataBase: new URL("https://www.poyodhara.in"),
   title: {
     default: "Poyodhara | Best Water Bottled Business in Agartala, Tripura - 20L Jars & Bottles",
     template: "%s | Poyodhara - Best Water Bottled Business in Agartala, Tripura",
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     telephone: true,
   },
   alternates: {
-    canonical: "https://poyodhara.in",
+    canonical: "https://www.poyodhara.in",
   },
   openGraph: {
     title: "Best Water Bottled Business in Agartala, Tripura | Poyodhara",
     description:
       "Poyodhara is the trusted packaged drinking water bottle and 20L water jar supplier in Agartala, Tripura. Fast doorstep delivery for homes, offices, and events.",
-    url: "https://poyodhara.in",
+    url: "https://www.poyodhara.in",
     siteName: "Poyodhara Drinking Water",
     locale: "en_IN",
     type: "website",
@@ -101,12 +101,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": ["LocalBusiness", "WholesaleStore"],
-              "@id": "https://poyodhara.in/#organization",
+              "@id": "https://www.poyodhara.in/#organization",
               name: "Poyodhara - Best Water Bottled Business in Agartala, Tripura",
               alternateName: "Poyodhara Drinking Water",
-              url: "https://poyodhara.in",
-              logo: "https://poyodhara.in/logo.webp",
-              image: "https://poyodhara.in/logo.webp",
+              url: "https://www.poyodhara.in",
+              logo: "https://www.poyodhara.in/logo.webp",
+              image: "https://www.poyodhara.in/logo.webp",
               telephone: "+919366834064",
               email: "contact@poyodhara.com",
               priceRange: "₹10 - ₹150",
