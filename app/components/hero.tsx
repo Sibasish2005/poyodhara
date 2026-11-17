@@ -32,18 +32,23 @@ export default function Hero() {
       <div
         className="flex transition-transform duration-700 ease-in-out"
         style={{
-          transform: `translateX(-${current * 100}%)`,
+          transform: `translateX(-${(current * 100) / images.length}%)`,
+          width: `${images.length * 100}%`,
         }}
       >
         {images.map((src, index) => (
-          <div key={index} className="min-w-full relative">
+          <div
+            key={index}
+            className="relative flex-shrink-0"
+            style={{ width: `${100 / images.length}%` }}
+          >
             <Image
               src={src}
               alt={`Poyodhara Drinking Water Slide ${index + 1}`}
               width={1920}
-              height={1080}
-              priority={index === 0}
-              className="w-full h-auto object-contain"
+              height={700}
+              priority
+              className="w-full h-auto object-cover"
               sizes="100vw"
             />
           </div>
@@ -51,7 +56,7 @@ export default function Hero() {
       </div>
 
       {/* Dots Indicator */}
-      <div className="absolute bottom-3 sm:bottom-4 md:bottom-6 w-full flex justify-center gap-1.5 sm:gap-2">
+      <div className="absolute bottom-3 sm:bottom-4 md:bottom-6 w-full flex justify-center gap-1.5 sm:gap-2 z-10">
         {images.map((_, i) => (
           <button
             key={i}
