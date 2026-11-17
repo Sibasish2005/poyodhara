@@ -1,12 +1,13 @@
-"use client"
+"use client";
+
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const images = [
-  "/hero1.png",
-  "/hero2.png",
-  "/hero3.png",
-  "/hero4.png",
+  "/hero1.webp",
+  "/hero2.webp",
+  "/hero3.webp",
+  "/hero4.webp",
 ];
 
 export default function Hero() {
@@ -15,14 +16,13 @@ export default function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 3000);
+    }, 3500);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="relative w-full overflow-hidden">
-      
+    <div className="relative w-full overflow-hidden bg-white">
       {/* Slides */}
       <div
         className="flex transition-transform duration-700 ease-in-out"
@@ -34,7 +34,7 @@ export default function Hero() {
           <div key={index} className="min-w-full relative">
             <Image
               src={src}
-              alt={`Slide ${index + 1}`}
+              alt={`Poyodhara Drinking Water Slide ${index + 1}`}
               width={1920}
               height={1080}
               priority={index === 0}
@@ -54,7 +54,7 @@ export default function Hero() {
             aria-label={`Go to slide ${i + 1}`}
             className={`rounded-full transition-all duration-300 ${
               i === current
-                ? "bg-white w-6 sm:w-8 h-2 sm:h-2.5"
+                ? "bg-white w-6 sm:w-8 h-2 sm:h-2.5 shadow-md"
                 : "bg-white/50 w-2 sm:w-2.5 h-2 sm:h-2.5 hover:bg-white/75"
             }`}
           />

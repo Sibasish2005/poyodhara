@@ -1,77 +1,150 @@
 [
   {
     "id": 1,
-    "name": "20L Water Jar",
-    "slug": "20l-water-jar",
+    "name": "20L Drinking Water Jar",
+    "slug": "20l-water-jar-agartala",
     "capacity": "20 Liters",
     "type": "Jar",
-    "image": "/Products/20L.png",
-    "description": "Large 20L premium drinking water jar suitable for home and office use.",
     "category": "Bulk Water",
+    "image": "/products/20L.webp",
+    "price": "Starting from ₹60*",
+    "priceValue": 60,
+    "popular": true,
+    "badge": "Standard Daily Supply",
+    "description": "Standard 20-litre drinking water jar suitable for homes, offices, and commercial establishments. Cleaned, filled, and sealed with tamper-evident caps.",
+    "idealFor": "Homes, Corporate Offices, Clinics & Shops",
+    "deliveryTime": "Same-day Agartala dispatch subject to slot availability",
+    "specs": [
+      "Multi-stage RO + UV purified water",
+      "Food-grade durable plastic jar",
+      "Protective tamper-proof cap seal",
+      "Recurring delivery schedule available"
+    ],
     "seo": {
-      "title": "20L Drinking Water Jar - Poyodhara",
-      "description": "Buy 20 liter premium drinking water jar for home and office delivery.",
-      "keywords": ["20L water jar", "drinking water jar", "bulk water"]
-    }
-  },
-  {
-    "id": 2,
-    "name": "2L Water Bottle",
-    "slug": "2l-water-bottle",
-    "capacity": "2 Liters",
-    "type": "Bottle",
-    "image": "/Products/2L.png",
-    "description": "Convenient 2L drinking water bottle for daily hydration.",
-    "category": "Bottled Water",
-    "seo": {
-      "title": "2L Drinking Water Bottle - Poyodhara",
-      "description": "Premium 2 liter bottled drinking water for everyday use.",
-      "keywords": ["2L water bottle", "drinking water", "mineral water"]
-    }
-  },
-  {
-    "id": 3,
-    "name": "1L Water Bottle",
-    "slug": "1l-water-bottle",
-    "capacity": "1 Liter",
-    "type": "Bottle",
-    "image": "/Products/1L.png",
-    "description": "Compact 1L water bottle, easy to carry and ideal for travel.",
-    "category": "Bottled Water",
-    "seo": {
-      "title": "1L Drinking Water Bottle - Poyodhara",
-      "description": "High-quality 1 liter bottled drinking water for on-the-go hydration.",
-      "keywords": ["1L water bottle", "portable water bottle"]
-    }
-  },
-  {
-    "id": 4,
-    "name": "500ml Water Bottle",
-    "slug": "500ml-water-bottle",
-    "capacity": "500 ml",
-    "type": "Bottle",
-    "image": "/Products/500ml.png",
-    "description": "Small 500ml water bottle, perfect for quick hydration.",
-    "category": "Bottled Water",
-    "seo": {
-      "title": "500ml Drinking Water Bottle - Poyodhara",
-      "description": "Compact 500ml mineral water bottle for travel and daily use.",
-      "keywords": ["500ml water bottle", "small water bottle"]
+      "title": "20L Water Jar Delivery in Agartala - Poyodhara",
+      "description": "Order 20L drinking water jar for home or office delivery in Agartala. Reliable supply from Poyodhara.",
+      "keywords": [
+        "20L water jar Agartala",
+        "water jar delivery Agartala",
+        "drinking water supplier in Agartala"
+      ]
     }
   },
   {
     "id": 5,
     "name": "20L Water Container with Tap",
-    "slug": "20l-water-container",
+    "slug": "20l-water-container-tap-agartala",
     "capacity": "20 Liters",
     "type": "Container",
-    "image": "/Products/20LTap.png",
-    "description": "Durable 20L water container with tap for easy dispensing.",
-    "category": "Water Storage",
+    "category": "Dispensers & Bulk",
+    "image": "/products/20LTap.webp",
+    "price": "Contact for Rates*",
+    "priceValue": 120,
+    "popular": true,
+    "badge": "Built-in Tap",
+    "description": "20L drinking water container fitted with an integrated dispensing tap. Portable and convenient for events, outdoor functions, small shops, and sites without a dispenser stand.",
+    "idealFor": "Events, Small Shops, Family Gatherings & Functions",
+    "deliveryTime": "Delivery across Agartala on prior confirmation",
+    "specs": [
+      "Built-in manual dispensing tap",
+      "No dispenser or machine required",
+      "Sturdy handle for carrying",
+      "Hygienic sealed container"
+    ],
     "seo": {
-      "title": "20L Water Container with Tap - Poyodhara",
-      "description": "Buy 20 liter water container with tap for convenient water storage.",
-      "keywords": ["20L container", "water dispenser container"]
+      "title": "20L Water Container with Tap in Agartala - Poyodhara",
+      "description": "Order 20L water container with tap for events, shops, and gatherings in Agartala.",
+      "keywords": [
+        "20L water container with tap Agartala",
+        "water can with tap Tripura"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "2L Drinking Water Bottle",
+    "slug": "2l-water-bottle-agartala",
+    "capacity": "2 Liters",
+    "type": "Bottle",
+    "category": "Bottled Water",
+    "image": "/products/2L.webp",
+    "price": "Standard MRP / Bulk Rate*",
+    "priceValue": 30,
+    "popular": false,
+    "badge": "Travel & Dining",
+    "description": "2-litre packaged drinking water bottle. Convenient for long travels, dining tables, and small family outings.",
+    "idealFor": "Travel, Dining Tables, Commutes",
+    "deliveryTime": "Carton / bulk orders available",
+    "specs": [
+      "RO + UV filtered packaged drinking water",
+      "Food-grade recyclable PET bottle",
+      "Factory sealed closure"
+    ],
+    "seo": {
+      "title": "2L Packaged Drinking Water Bottle - Poyodhara Agartala",
+      "description": "Buy 2L packaged drinking water bottles in Agartala. Wholesale case delivery available.",
+      "keywords": [
+        "2L water bottle Agartala",
+        "packaged drinking water Tripura"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "1L Drinking Water Bottle",
+    "slug": "1l-water-bottle-agartala",
+    "capacity": "1 Liter",
+    "type": "Bottle",
+    "category": "Bottled Water",
+    "image": "/products/1L.webp",
+    "price": "Standard MRP / Bulk Rate*",
+    "priceValue": 20,
+    "popular": true,
+    "badge": "Everyday Bottle",
+    "description": "1-litre packaged drinking water bottle for everyday individual hydration, conferences, and retail sale.",
+    "idealFor": "Personal Hydration, Meetings, Retail Outlets",
+    "deliveryTime": "Box / carton supply across Agartala",
+    "specs": [
+      "Multi-stage purified water",
+      "Easy-grip ergonomic bottle",
+      "Carton supply for bulk orders"
+    ],
+    "seo": {
+      "title": "1L Drinking Water Bottle in Agartala - Poyodhara",
+      "description": "1 Litre drinking water bottle by Poyodhara. Carton supply for retail, offices, and events in Agartala.",
+      "keywords": [
+        "1L drinking water bottle Agartala",
+        "packaged water Agartala"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "500ml Compact Water Bottle",
+    "slug": "500ml-water-bottle-agartala",
+    "capacity": "500 ml",
+    "type": "Bottle",
+    "category": "Bottled Water",
+    "image": "/products/500ml.webp",
+    "price": "Standard MRP / Bulk Rate*",
+    "priceValue": 10,
+    "popular": false,
+    "badge": "Events & Meetings",
+    "description": "Compact 500ml packaged drinking water bottle. Ideal single-serve size for meetings, conferences, weddings, and gatherings.",
+    "idealFor": "Conferences, Weddings, Seminars & Guests",
+    "deliveryTime": "Bulk event orders on request",
+    "specs": [
+      "Convenient compact size to prevent wastage",
+      "Multi-barrier purified water",
+      "Bulk crate & carton supply"
+    ],
+    "seo": {
+      "title": "500ml Water Bottles in Agartala - Poyodhara",
+      "description": "Order 500ml packaged drinking water bottles in bulk for meetings and events in Agartala.",
+      "keywords": [
+        "500ml water bottle Agartala",
+        "bulk water bottles Tripura"
+      ]
     }
   }
 ]
