@@ -10,7 +10,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://poyodhara.com"),
+  metadataBase: new URL("https://poyodhara.in"),
   title: {
     default: "Poyodhara | Best Water Bottled Business in Agartala, Tripura - 20L Jars & Bottles",
     template: "%s | Poyodhara - Best Water Bottled Business in Agartala, Tripura",
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     telephone: true,
   },
   alternates: {
-    canonical: "https://poyodhara.com",
+    canonical: "https://poyodhara.in",
   },
   openGraph: {
     title: "Best Water Bottled Business in Agartala, Tripura | Poyodhara",
     description:
       "Poyodhara is the trusted packaged drinking water bottle and 20L water jar supplier in Agartala, Tripura. Fast doorstep delivery for homes, offices, and events.",
-    url: "https://poyodhara.com",
+    url: "https://poyodhara.in",
     siteName: "Poyodhara Drinking Water",
     locale: "en_IN",
     type: "website",
@@ -101,12 +101,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": ["LocalBusiness", "WholesaleStore"],
-              "@id": "https://poyodhara.com/#organization",
+              "@id": "https://poyodhara.in/#organization",
               name: "Poyodhara - Best Water Bottled Business in Agartala, Tripura",
               alternateName: "Poyodhara Drinking Water",
-              url: "https://poyodhara.com",
-              logo: "https://poyodhara.com/logo.webp",
-              image: "https://poyodhara.com/logo.webp",
+              url: "https://poyodhara.in",
+              logo: "https://poyodhara.in/logo.webp",
+              image: "https://poyodhara.in/logo.webp",
               telephone: "+919366834064",
               email: "contact@poyodhara.com",
               priceRange: "₹10 - ₹150",
@@ -147,22 +147,22 @@ export default function RootLayout({
               ],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
-                name: "Packaged Drinking Water & 20L Water Jars",
+                name: "Drinking Water Supply Services",
                 itemListElement: [
                   {
                     "@type": "Offer",
                     itemOffered: {
-                      "@type": "Product",
-                      name: "20L Drinking Water Jar",
-                      description: "20L water jar supply for homes and offices in Agartala.",
+                      "@type": "Service",
+                      name: "20L Drinking Water Jar Delivery",
+                      description: "Doorstep delivery of 20L drinking water jars for homes and offices in Agartala.",
                     },
                   },
                   {
                     "@type": "Offer",
                     itemOffered: {
-                      "@type": "Product",
-                      name: "Packaged Drinking Water Bottles (500ml, 1L, 2L)",
-                      description: "Carton and retail supply of packaged drinking water bottles for conferences, events, and travel in Agartala, Tripura.",
+                      "@type": "Service",
+                      name: "Packaged Drinking Water Bottle Supply",
+                      description: "Carton and retail supply of packaged drinking water bottles (500ml, 1L, 2L) for conferences, events, and travel in Agartala, Tripura.",
                     },
                   },
                 ],

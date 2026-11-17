@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://poyodhara.com";
+  const baseUrl = "https://poyodhara.in";
   const now = new Date();
 
   return [
